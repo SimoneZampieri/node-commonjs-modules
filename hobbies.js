@@ -1,5 +1,8 @@
-function hobbies(hobbieOne, hobbieTwo, hobbieThree){
-    return hobbies = [hobbieOne, hobbieTwo, hobbieThree];
+function createHobbies(hobbieOne, hobbieTwo, hobbieThree){
+    return{
+        hobbies: [hobbieOne, hobbieTwo, hobbieThree]
+    };
+        
 }
 
-modules.exports = hobbies(hobbieOne, hobbieTwo, hobbieThree);
+module.exports = createHobbies;

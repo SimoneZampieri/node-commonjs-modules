@@ -4,7 +4,13 @@
   "description": "Title === Abstract:xxx ## Consegna Lavoriamo con i moduli commonjs esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files:",
   "main": "names.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node names.js",
+    "start": "node hobbies.js",
+    "start": "node people.js",
+    "dev": "node --watch names.js",
+    "dev": "node --watch hobbies.js",
+    "dev": "node --watch people.js"
   },
   "repository": {
     "type": "git",

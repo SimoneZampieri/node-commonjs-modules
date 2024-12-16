@@ -1,0 +1,20 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Title === Abstract:xxx ## Consegna Lavoriamo con i moduli commonjs esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files:",
+  "main": "names.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimoneZampieri/node-commonjs-modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimoneZampieri/node-commonjs-modules/issues"
+  },
+  "homepage": "https://github.com/SimoneZampieri/node-commonjs-modules#readme"
+}

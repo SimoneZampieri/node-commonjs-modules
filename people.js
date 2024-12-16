@@ -4,16 +4,16 @@ const createHobbies = require('./hobbies');
 function createPerson(){
     
     const getfullName = createName('Mario', 'Rossi');
-
+    
     const getHobbies = createHobbies('Football', 'Reading', 'WarHammer');
 
     return {
-        getfullName: createName,
-        gethobbies: createHobbies.hobbies
+        name: getfullName,
+        hobbies: getHobbies.hobbies
     };
 
 };
 
 
-console.log(createPerson())
+console.log(createPerson());
 

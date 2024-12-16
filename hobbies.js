@@ -3,6 +3,6 @@ function createHobbies(hobbieOne, hobbieTwo, hobbieThree){
         hobbies: [hobbieOne, hobbieTwo, hobbieThree]
     };
         
-}
+};
 
-module.export = createHobbies;
+module.exports = createHobbies;

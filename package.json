@@ -5,12 +5,12 @@
   "main": "names.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node names.js",
-    "start": "node hobbies.js",
     "start": "node people.js",
-    "dev": "node --watch names.js",
-    "dev": "node --watch hobbies.js",
-    "dev": "node --watch people.js"
+    "dev": "node --watch people.js",
+    "startNames": "node names.js",
+    "devNames": "node --watch names.js",
+    "startHobbies": "node hobbies.js",
+    "devHobbies": "node --watch hobbies.js"
   },
   "repository": {
     "type": "git",
